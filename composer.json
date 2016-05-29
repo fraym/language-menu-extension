@@ -2,7 +2,16 @@
     "name": "fraym/language-menu-extension",
     "type": "fraym-extension",
     "description": "Create a language switcher menu for Fraym CMS.",
+    "homepage": "http://fraym.org",
     "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Fraym.org",
+            "email": "info@fraym.org",
+            "homepage": "http://fraym.org",
+            "role": "Developer"
+        }
+    ],
     "keywords": [
         "fraym",
         "layout",

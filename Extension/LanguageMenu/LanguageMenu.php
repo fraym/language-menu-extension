@@ -14,11 +14,7 @@ use Fraym\Annotation\Registry;
  * @package Extension\LanguageMenu
  * @Registry(
  * name="Language Menu",
- * description="Create a language menu.",
- * version="1.0.0",
- * author="Fraym.org",
- * website="http://www.fraym.org",
- * repositoryKey="FRAYM_EXT_LANGMENU",
+ * repositoryKey="fraym/language-menu-extension",
  * entity={
  *      "\Fraym\Block\Entity\Extension"={
  *          {
