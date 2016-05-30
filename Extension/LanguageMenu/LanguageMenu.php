@@ -24,12 +24,6 @@ use Fraym\Annotation\Registry;
  *           "execMethod"="execBlock"
  *           },
  *      }
- * },
- * files={
- *      "Extension/LanguageMenu/*",
- *      "Extension/LanguageMenu/",
- *      "Template/Default/Extension/LanguageMenu/*",
- *      "Template/Default/Extension/LanguageMenu/"
  * }
  * )
  * @Injectable(lazy=true)
