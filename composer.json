@@ -19,6 +19,11 @@
         "design",
         "extension"
     ],
+    "autoload": {
+        "psr-4": {
+            "Extension\\LanguageMenu\\": "Extension/LanguageMenu/"
+        }
+    },
     "require": {
         "fraym/core": "^1.0.0"
     }
