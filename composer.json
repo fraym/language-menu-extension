@@ -21,7 +21,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Extension\\LanguageMenu\\": "Extension/LanguageMenu/"
+            "Fraym\\Extension\\LanguageMenu\\": "Extension/LanguageMenu/"
         }
     },
     "require": {

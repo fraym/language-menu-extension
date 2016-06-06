@@ -5,13 +5,12 @@
  * @copyright Dominik Weber <info@fraym.org>
  * @license   http://www.opensource.org/licenses/gpl-license.php GNU General Public License, version 2 or later (see the LICENSE file)
  */
-namespace Extension\LanguageMenu;
+namespace Fraym\Extension\LanguageMenu;
 
-use \Fraym\Block\BlockXml as BlockXml;
 use Fraym\Annotation\Registry;
 
 /**
- * @package Extension\LanguageMenu
+ * @package Fraym\Extension\LanguageMenu
  * @Registry(
  * name="Language Menu",
  * repositoryKey="fraym/language-menu-extension",
@@ -20,7 +19,7 @@ use Fraym\Annotation\Registry;
  *          {
  *           "name"="Language Menu",
  *           "description"="Create a language menu.",
- *           "class"="\Extension\LanguageMenu\LanguageMenu",
+ *           "class"="\Fraym\Extension\LanguageMenu\LanguageMenu",
  *           "execMethod"="execBlock"
  *           },
  *      }
@@ -32,7 +31,7 @@ class LanguageMenu
 {
     /**
      * @Inject
-     * @var \Extension\LanguageMenu\LanguageMenuController
+     * @var \Fraym\Extension\LanguageMenu\LanguageMenuController
      */
     protected $languageMenuController;
 
