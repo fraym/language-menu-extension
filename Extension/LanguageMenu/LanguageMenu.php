@@ -70,7 +70,7 @@ class LanguageMenu
         $currentMenuItem = $this->route->getCurrentMenuItem();
 
         foreach ($currentMenuItem->translations as $translation) {
-            $url = $this->route->buildFullUrl($translation, true);
+            $url = $translation->getUrl(true);
             $languageMenu[$translation->locale->id] = array(
                 'enable' => $translation->active,
                 'url' => $url,
