@@ -1,11 +1,11 @@
-
-
-<li class="languages drop"><a href="#"><span class="icon-globe icon-white"></span> Sprache / Language</a>
-    <div class="pPanel">
-        <ul class="inner">
-            {foreach $languageMenu as $language}
-                <li{if $language.active} class="active"{/if}><a href="{$language.url}">{$language.name} <span class="icon-ok"></span></a></li>
-            {/foreach}
-        </ul>
-    </div>
-</li>
+<div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="languageMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+        {_('Language')}
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="languageMenu">
+        {foreach $languageMenu as $language}
+            <li{if $language.active} class="active"{/if}><a href="{$language.url}">{$language.name}</a></li>
+        {/foreach}
+    </ul>
+</div>
